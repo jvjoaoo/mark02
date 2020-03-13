@@ -1,0 +1,280 @@
+body{
+    width: 100%px;
+    margin: 0px;
+    font-family: 'century gothic';
+    background-color: #333; 
+}
+.menu{
+    background: linear-gradient(to bottom,#000,#2d2d2d);
+    display: flex;
+    font-size: 18px;
+    position: fixed;
+    width: 100%;
+    top:0px;
+    z-index: 1;
+    
+}
+.menu li{          
+    padding: 28px 20px 31px 20px;
+    list-style: none;
+    border: 1px hide border;
+    transition: 0.7s;
+}
+.menu a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu li:hover{
+    background-color: #0070cc;
+}
+.logo{
+    width: 150px;
+    margin: 10px 200px 10px 14px;
+}
+
+/* BANNER */
+
+.contencao{
+    margin: 100px 45px auto ; 
+    width: 1080px;
+    height: 500px;
+    background-color: #000; 
+    overflow: hidden;
+    margin: 100px 135px 10px;
+ }
+
+ #imageBg{
+    width: 1080px;
+    height: 732px;
+    transition: 1s;
+}
+
+.anterior, .proximo{
+    margin-top: -533px;
+    width: 65px;
+    height: 120px;
+    background-color: rgba(46,62,80, .4);
+    color: #fff;
+    font-size: 25px; 
+    text-align: center;
+    line-height: 120px;
+    cursor: pointer;
+}
+
+.proximo:hover{
+    background-color: #000;
+    opacity: 0.5;
+    transition: 0.5s
+}
+.anterior:hover{
+    background-color: #000;
+    opacity: 0.5;
+    transition: 0.5s
+}
+
+.anterior{
+    float: left;
+}
+.proximo{
+    float: right;
+}
+
+ul#botoes {
+    list-style: none;
+    margin-top: -30px;
+    width: 150px; 
+    display: flex;
+    margin: -60px 535px 10px;
+}
+
+#botoes li{
+    margin: 10px;
+    background-color: #000;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+#botoes li:hover{
+    background-color: #fff;
+    opacity: .4;
+}
+
+ .selected{
+    opacity: .6;
+ }  
+
+/*                          FIM BANNER          */
+
+
+#populares{
+    display: flex;
+    margin-left: 25px;
+}
+
+.icone1 img{
+    width: 170px;
+    height: 170px;
+    border: 0px solid #000;
+    border-radius: 150px;
+    box-shadow: 3px 3px 8px black;
+    transition: 0.5s;
+}
+
+.icone-legenda-games h1{
+    padding-left: 20px;
+    transition: 0.5s;
+}
+
+figure.icone1 img:hover{
+    box-shadow: none;
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+    color: white;
+    object-fit: cover;
+}
+.icone-legenda-games{
+    padding-left: 10px;
+}
+
+/*                      ICONE 02                       */
+.icone2 img{
+    width: 170px;
+    height: 170px;
+    border: 0px solid #000;
+    border-radius: 150px;
+    box-shadow: 3px 3px 8px black;
+    transition: 0.5s;
+}
+
+.icone-legenda-marvel h1{
+    padding-left: 20px;
+    transition: 0.5s;
+}
+
+figure.icone2 img:hover{
+    box-shadow: none;
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+    color: white;
+}
+/*                      ICONE 03                       */
+.icone3 img{
+    width: 170px;
+    height: 170px;
+    border: 0px solid #000;
+    border-radius: 150px;
+    box-shadow: 3px 3px 8px black;
+    transition: 0.5s;
+}
+
+.icone-legenda-dccomics h1{
+    transition: 0.5s;
+}
+
+figure.icone3 img:hover{
+    box-shadow: none;
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+    color: white;
+}
+/*                      ICONE 03                       */
+.icone4 img{
+    width: 170px;
+    height: 170px;
+    border: 0px solid #000;
+    border-radius: 150px;
+    box-shadow: 3px 3px 8px black;
+    transition: 0.5s;
+}
+
+.icone-legenda-animes h1{
+    padding-left: 20px;
+    transition: 0.5s;
+}
+
+figure.icone4 img:hover{
+    box-shadow: none;
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+    color: white;
+}
+/*                      ICONE 05                       */
+.icone5 img{
+    width: 170px;
+    height: 170px;
+    border: 0px solid #000;
+    border-radius: 150px;
+    box-shadow: 3px 3px 8px black;
+    transition: 0.5s;
+}
+
+.icone-legenda-hp {
+    transition: 0.5s;    
+}
+
+figure.icone5 img:hover{
+    box-shadow: none;
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+    transition: 
+}
+
+a:hover{
+    transition: 0.1s;
+    color: #fff;
+}
+
+/*                      Principal                       */
+#conteudo{
+    border-top: 1px solid #fff;
+}
+
+/*                      Conteudo láteral                       */
+
+iframe#news{
+    width: 350px;
+    height: 275px;
+    display: block;
+    float: right;
+    margin: 10px;
+}
+
+
+
+
+footer#rodape{
+    clear: both;
+    border-top: 1px solid #fff;
+}
+
+footer#rodape p{
+    text-align: center;
+    color: #fff;
+}
+
+footer#rodape a{
+    color: #fff;
+}
+
+footer#rodape a:hover{
+    color: #0070cc;
+}
+
+
+
+
+
